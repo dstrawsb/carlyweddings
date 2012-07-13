@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Weddings by Carly</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<script>
+
+		function rollover(tmp, state) {
+			if (state == 'on') {
+				if (tmp.id == 'blog') {
+					tmp.src = "images/images/main_nav_rollover_01.gif";
+				}
+				if (tmp.id == 'twitter') {
+					tmp.src = "images/images/main_nav_rollover_02.gif";
+				}
+				if (tmp.id == 'facebook') {
+					tmp.src = "images/images/main_nav_rollover_03.gif";
+				}
+			} else {
+				if (tmp.id == 'blog') {
+					tmp.src = "images/images/nav-1_01.gif";
+				}
+				if (tmp.id == 'twitter') {
+					tmp.src = "images/images/nav-1_02.gif";
+				}
+				if (tmp.id == 'facebook') {
+					tmp.src = "images/images/nav-1_03.gif";
+				}
+			}
+		}
+	</script>
+<body>
+	
+	<div class="container">
+		<div class="header">
+			<!-- end .header -->
+			<img src="images/LogoRingTan.png" width="1000" height="199" />
+		</div>
+		<div class="content">
+			<h1>
+				<img src="images/images/nav-1_01.gif" id="blog" width="328"
+					height="460" onmouseover="rollover(this, 'on');"
+					onmouseout="rollover(this, 'off');"
+					onclick="javascript:window.open('http://www.weddingsbycarly.com/blog', 'win1');" />
+				<img src="images/images/nav-1_02.gif" id="twitter" width="310"
+					height="460" onmouseover="rollover(this, 'on');"
+					onmouseout="rollover(this, 'off');" onclick="javascript:window.open('http://twitter.com/#!/CarlyGWeddings', 'win1');" />
+				<img src="images/images/nav-1_03.gif" id="facebook"
+					onmouseover="rollover(this, 'on');"
+					onmouseout="rollover(this, 'off');" width="322" height="460"
+					onclick="javascript:window.open('http://www.facebook.com/pages/Weddings-By-Carly/117918404959492', 'win1');" />
+			</h1>
+			<!-- end .content -->
+		</div>
+		<div class="footer">
+			<p>
+				All Rights Reserved 2011 | Weddings by Carly | Site Designed by: <a
+					href="http://www.seanstrawsburg.com" target="_blank">SeanStrawsburg.com</a>
+			</p>
+			<!-- end .footer -->
+		</div>
+		<!-- end .container -->
+	</div>
+</body>
+</html>
